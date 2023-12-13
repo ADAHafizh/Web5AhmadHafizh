@@ -1,0 +1,9 @@
+{
+  "name": "final web",
+  "version": "1.0.0",
+  "dependencies": {
+    "animejs": "^3.2.2",
+    "mdb-ui-kit": "^7.1.0",
+    "parallax-js": "^3.1.0"
+  }
+}
