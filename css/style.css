@@ -35,6 +35,7 @@ body {
     font-style:normal;
     background: #F5F5F5;
     scroll-behavior: smooth;
+    cursor: url("../rainbowcurs.cur"), auto;
 }
 
 h1 {
