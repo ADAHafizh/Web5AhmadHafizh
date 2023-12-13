@@ -2,6 +2,7 @@
   "name": "final web",
   "version": "1.0.0",
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.29",
     "animejs": "^3.2.2",
     "mdb-ui-kit": "^7.1.0",
     "parallax-js": "^3.1.0"

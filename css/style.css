@@ -8,6 +8,27 @@
     src: url("fonts/sofiapro-light.otf");
 }
 
+/*Lenis Smooth Scroll*/
+html.lenis {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+    pointer-events: none;
+}
+
 body {
     font-family: 'Sofia Pro Light', "Sofia Pro Light", sans-serif;
     font-weight:normal;
@@ -152,7 +173,7 @@ h6 {
 }
 
 .gradient-custom {
-    /* fallback for old browsers */
+    /* For Old Browsers */
     background: #f6d365;
 
     /* Chrome 10-25, Safari 5.1-6 */
