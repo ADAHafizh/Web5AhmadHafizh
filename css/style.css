@@ -76,7 +76,7 @@ h6 {
 }
 
 
-/*animated scroll arrow animation*/
+/*Scroll Down Arrow Animation*/
 @-webkit-keyframes fade_move_down {
     0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
     50%  { opacity: 1;  }
@@ -107,6 +107,7 @@ h6 {
     font-family: 'Cubano', Cubano, sans-serif;
     font-weight:normal;
     font-style:normal;
+    color: #ff9700 !important;
     display: block;
     text-decoration: none;
     transition: opacity 400ms ease;

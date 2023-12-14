@@ -14,7 +14,10 @@
   <!-- Web icon -->
   <link rel="icon" href="asset/swatchbook-solid.svg" type="image/x-icon" />
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css"
+          rel="stylesheet"
+  />
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -24,41 +27,42 @@
   <!-- HERO SECTION --><div id="preview" class="preview">
     <div style="display: none;"></div>
     <div>
-      <div data-draggable="true" style="position: relative;"><!----><!---->
-        <section draggable="false" class="overflow-hidden pt-0" data-v-271253ee="">
-          <section class="overflow-hidden"> <!-- Background image -->
-            <div class="bg-image vh-100" style="
+      <!----><!---->
+      <section draggable="false" class="overflow-hidden pt-0" data-v-271253ee="">
+        <section class="overflow-hidden"> <!-- Background image -->
+          <div class="bg-image vh-100" style="
 
              background-image: url('https://imgur.com/NO386nE.png');">
-              <!-- Mask -->
-              <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.2)">
-                <!-- Text Container -->
-                <div class="container d-flex justify-content-center align-items-center h-100" id="home">
-                  <!-- Introduction & Name -->
-                  <div class="text-white text-start">
-                    <h3 class="">Hi, nice to meet you! I am</h3>
-                    <h1 class="ml6 mb-3 display-1">
+            <!-- Mask -->
+            <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.2)">
+              <!-- Text Container -->
+              <div class="container d-flex justify-content-center align-items-center h-100" id="home">
+                <!-- Introduction & Name -->
+                <div class="text-white text-start">
+                  <h3 class="">Hi, nice to meet you! I am</h3>
+                  <h1 class="ml6 mb-3 display-1">
                       <span class="text-wrapper">
                         <span class="letters">Ahmad Dahlan
                           <mark class="bg-warning bg-opacity-75">Hafizh</mark></span>
                       </span>
-                    </h1>
-                    <h3 class="mb-5">Student. Part-time designer. Popcorn enthusiast. </h3>
-                    <!-- Buttons -->
-                    <div class="menu">
-                      <div class="menu-items d-flex justify-content-evenly text-decoration-none">
-                        <a href="#home" class="menu-item">Home</a>
-                        <a href="#level-environment" class="menu-item">PROJECT</a>
-                        <a href="#email" class="menu-item">CONTACT</a>
-                      </div>
+                  </h1>
+                  <h3 class="mb-5">Student. Part-time designer. Popcorn enthusiast. </h3>
+                  <!-- Buttons -->
+                  <div class="menu">
+                    <div class="menu-items d-flex justify-content-evenly text-decoration-none">
+                      <a href="#home" class="menu-item">Home</a>
+                      <a href="#level-environment" class="menu-item">PROJECT</a>
+                      <a href="#email" class="menu-item">CONTACT</a>
                     </div>
-                    <div class="scroll-down"></div>
                   </div>
+                  <div class="scroll-down"></div>
                 </div>
               </div>
-              </div>
-            </div> <!-- Background image --> </section>
-        </section><!----></div><!-- HERO SECTION -->
+            </div>
+          </div>
+          <!-- Background image -->
+        </section>
+        </section><!----><!-- HERO SECTION -->
 
       <div data-draggable="true" style="position: relative;" draggable="false" class=""><!----><!---->
         <section draggable="false" class="container pt-5 vh-100" data-v-271253ee="" id="profile" >
@@ -84,7 +88,7 @@
       <div data-draggable="true" style="position: relative;" draggable="false" class=""><!----><!---->
         <section draggable="false" class="container pt-5" data-v-271253ee="">
           <section class="mb-10 text-center text-lg-start">
-            <h2 class="fw-bold mb-5 text-center" id="level-environment">Level /<mark class="bg-success bg-opacity-50">Environment</mark></h2>
+            <h2 class="fw-bold mb-5 text-center">Level /<mark class="bg-success bg-opacity-50">Environment</mark></h2>
             <div class="row gx-lg-5 justify-content-center" data-relative-input="true">
               <!-- Double Image Column Left -->
               <div class="col-lg-4 col-md-4 mb-4 mb-lg-0" data-depth="0.2">
@@ -95,12 +99,17 @@
                           class="w-100" alt="" aria-controls="#picker-editor" draggable="false"
                           data-mdb-popover-init
                           data-mdb-ripple-init
-                          title="Popover title"
-                          data-mdb-content="And here's some amazing content. It's very engaging. Right?"></div>
-                  <div class="bg-image box-shadow-green hover-zoom rounded-4 mb-4 data-depth="0.6""
-                       data-mdb-ripple-color="light"><img
-                          src="https://imgur.com/aCCeFMP.png"
-                          class="w-100" alt="" aria-controls="#picker-editor" draggable="false"></div>
+                          data-mdb-placement="left"
+                          data-mdb-content="I have yet to do fishing, but it seems fun."></div>
+                  <div class="bg-image box-shadow-green hover-zoom rounded-4 mb-4" data-mdb-ripple-color="light">
+                    <img
+                            src="https://imgur.com/aCCeFMP.png"
+                            class="w-100" alt="" aria-controls="#picker-editor" draggable="false"
+                            data-mdb-popover-init
+                            data-mdb-ripple-init
+                            data-mdb-placement="left"
+                            data-mdb-content="One, Two, Tree">
+                  </div>
                 </div>
               </div>
               <!-- Single Image Column Right -->
@@ -109,18 +118,21 @@
                   <div class="bg-image box-shadow-green hover-zoom rounded-4 mb-4"
                        data-mdb-ripple-color="light"><img
                           src="https://imgur.com/oVhFX5m.png"
-                          class="w-100" alt="" aria-controls="#picker-editor" draggable="false"></div>
+                          class="w-100" alt="" aria-controls="#picker-editor" draggable="false"
+                          data-mdb-popover-init
+                          data-mdb-ripple-init
+                          data-mdb-placement="right"
+                          data-mdb-content="Butterfly is an evolution from--worms?."></div>
                 </div>
               </div>
-
-            </div>
+          </div>
           </section>
         </section><!----></div>
   <!-- LEVEL/ENVIRONMENT -->
       <!-- CHARACTER -->
       <div data-draggable="true" class="" style="position: relative;" draggable="false">
         <section draggable="false" class="container" data-v-271253ee="">
-          <h2 class="fw-bold mb-5 text-center" ><mark class="bg-secondary bg-opacity-10">Character</mark> / People</h2>
+          <h2 class="fw-bold mb-5 text-center" ><mark class="bg-primary bg-opacity-75">Character</mark> / People</h2>
           <section class="mb-10 text-center text-lg-start">
             <div class="row gx-lg-5 justify-content-center">
               <div class="col-lg-4 col-md-4">
@@ -128,7 +140,11 @@
                   <div class="bg-image rounded-4 mb-4 ripple-surface-light justify-content-center align-items-center hover-zoom box-shadow-blue"
                        data-mdb-ripple-color="light" style=""><img
                           src="https://imgur.com/NIYz73s.png"
-                          class="w-100" alt="" aria-controls="#picker-editor" draggable="false"></div>
+                          class="w-100" alt="" aria-controls="#picker-editor" draggable="false"
+                          data-mdb-popover-init
+                          data-mdb-ripple-init
+                          data-mdb-placement="left"
+                          data-mdb-content="Horse high."></div>
                 </div>
               </div>
               <div class="col-md-6">
@@ -136,20 +152,29 @@
                   <div class="bg-image rounded-4 mb-4 ripple-surface-light hover-zoom box-shadow-blue"
                        data-mdb-ripple-color="light" style=""><img
                           src="https://imgur.com/6lK4uhd.png"
-                          class="w-100" alt="" aria-controls="#picker-editor hover-zoom box-shadow-blue" draggable="false"></div>
+                          class="w-100" alt="" aria-controls="#picker-editor hover-zoom box-shadow-blue" draggable="false"
+                          data-mdb-popover-init
+                          data-mdb-ripple-init
+                          data-mdb-placement="right"
+                          data-mdb-content="Gary Cooper."></div>
                   <div class="bg-image rounded-4 mb-4 ripple-surface-light hover-zoom box-shadow-blue"
                        data-mdb-ripple-color="light" style=""><img
                           src="https://imgur.com/G6nYcqW.png"
-                          class="w-100" alt="" aria-controls="#picker-editor" draggable="false"></div>
+                          class="w-100" alt="" aria-controls="#picker-editor" draggable="false"
+                          data-mdb-popover-init
+                          data-mdb-ripple-init
+                          data-mdb-placement="right"
+                          data-mdb-content="Back pain, really."></div>
                 </div>
               </div>
             </div>
           </section>
         </section><!---->
-      </div><!-- CHARACTER -->
+      </div>
+  <!-- CHARACTER -->
       <div data-draggable="true" class="" style="position: relative;" draggable="false">
         <section draggable="false" class="container" data-v-271253ee="">
-          <h2 class="fw-bold mb-5 text-center" >& a mix of <mark class="bg-primary bg-opacity-10">both</mark></h2>
+          <h2 class="fw-bold mb-5 text-center" >& a mix of <mark class="bg-warning bg-opacity-50">both</mark></h2>
           <section class="mb-5 text-center text-lg-start">
             <div class="row gx-lg-5 justify-content-center">
               <div class="col-lg-10 col-md-10 mb-4 mb-lg-0">
@@ -157,7 +182,11 @@
                   <div class="bg-image rounded-4 mb-4 justify-content-center align-items-center hover-zoom box-shadow-orange"
                        data-mdb-ripple-color="light" style=""><img
                           src="https://imgur.com/nNCpOMn.png"
-                          class="w-100" alt="" aria-controls="#picker-editor" draggable="false"></div>
+                          class="w-100" alt="" aria-controls="#picker-editor" draggable="false"
+                          data-mdb-popover-init
+                          data-mdb-ripple-init
+                          data-mdb-placement="right"
+                          data-mdb-content="Atone, judge, and observe--MOOORRTAALLL!."></div>
                 </div>
               </div>
               <div class="col-lg-5 col-md-10 mb-4 mb-lg-0">
@@ -165,7 +194,11 @@
                   <div class="bg-image rounded-4 mb-4 ripple-surface-light justify-content-center align-items-center hover-zoom box-shadow-orange"
                        data-mdb-ripple-color="light" style=""><img
                           src="https://imgur.com/W3fRWn4.png"
-                          class="w-100" alt="" aria-controls="#picker-editor" draggable="false"></div>
+                          class="w-100" alt="" aria-controls="#picker-editor" draggable="false"
+                          data-mdb-popover-init
+                          data-mdb-ripple-init
+                          data-mdb-placement="left"
+                          data-mdb-content="Did you know that modeling teeth is a pain?."></div>
                 </div>
               </div>
               <div class="col-lg-5 col-md-10 mb-4 mb-lg-0">
@@ -173,7 +206,11 @@
                   <div class="bg-image rounded-4 mb-4 ripple-surface-light justify-content-center align-items-center hover-zoom box-shadow-orange"
                        data-mdb-ripple-color="light" style=""><img
                           src="https://imgur.com/m3keDP9.png"
-                          class="w-100" alt="" aria-controls="#picker-editor" draggable="false"></div>
+                          class="w-100" alt="" aria-controls="#picker-editor" draggable="false"
+                          data-mdb-popover-init
+                          data-mdb-ripple-init
+                          data-mdb-placement="right"
+                          data-mdb-content="Lilypads are dangerous for water--are they not?."></div>
                 </div>
               </div>
               <div class="col-lg-10 col-md-10 mb-lg-0">
@@ -191,6 +228,7 @@
                 <p> stairway games | 2023</p>
                 <a type="button" class="btn btn-outline btn-rounded btn-lg gradient-custom" data-mdb-ripple-color="#000000" href="https://imgur.com/a/yVmLXny" target="_blank"> GALLERY </a>
               </blockquote>
+          </div>
           </section>
           <hr class="hr hr-blurry">
         </section><!---->
@@ -216,7 +254,7 @@
                     <p class="card-text">A website built and developed for the first NYUAD 2023 Communications Lab assignment. The website contains a video
                       for 30MFF (30 Minute Film Festival) of me walking around unique spots on campus</p>
                     <a aria-controls="#picker-editor"
-                       class="btn btn-primary"
+                       class="btn btn-outline-warning"
                        draggable="false"
                        target="_blank"
                        href="https://adahafizh.github.io/Website1MFF/">Visit Web
@@ -239,7 +277,7 @@
                   <div class="card-body"><h5 class="card-title">Rapunzel's Quest</h5>
                     <p class="card-text">In an alternate universe where Rapunzel saves Flynn from the evil witch. An interactive comic website built together with Aysha, Clara, and Lujain.</p>
                     <a aria-controls="#picker-editor"
-                       class="btn    btn-primary"
+                       class="btn btn-outline-warning"
                        draggable="false"
                        target="_blank"
                        href="https://adahafizh.github.io/Website2Comics/">Visit Web</a>
@@ -261,7 +299,7 @@
                   <div class="card-body"><h5 class="card-title">Sounds of The World</h5>
                     <p class="card-text">A collaborative sound project, featuring the rich ambience of countries from around the world. Built together with Fady, Keya, and Maheen.</p>
                     <a aria-controls="#picker-editor"
-                       class="btn btn-primary"
+                       class="btn btn-outline-warning"
                        draggable="false"
                        target="_blank"
                        href="https://fadyjohn10.github.io/Comm-Lab/Comm%20Lab%20Assignment3/index.html">Visit Web</a>
@@ -283,7 +321,7 @@
                   <div class="card-body"><h5 class="card-title">Where is My Cookie?</h5>
                     <p class="card-text">A short film with interactive user lead choices. Made with love together with Keya, Aysha, and Lemisa.</p>
                     <a aria-controls="#picker-editor"
-                       class="btn btn-primary"
+                       class="btn btn-outline-warning"
                        draggable="false"
                        target="_blank"
                        href="https://keys19.github.io/video_commlab/">Visit Web</a>
@@ -311,7 +349,7 @@
             /* Oval border for image*/
             .fancy-border-radius {
               border-radius: 53% 47% 52% 48% / 36% 41% 59% 64%;
-            } </style> <!-- Jumbotron -->
+            } </style>
             <div class="container py-4">
               <div class="row g-0 align-items-center">
                 <div class="col-lg-6 mb-5 mb-lg-0">
@@ -350,13 +388,15 @@
       <!-- Footer -->
     </div>
     </div>
-  </div>
 
   <!-- PROJECT END -->
   <!-- Lenis Smooth Scroll-->
   <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
   <!-- Bootstrap JS -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script
+          type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
+  ></script>
   <!-- Custom scripts -->
   <script type="text/javascript" src="js/script.js"></script>
 </body>
